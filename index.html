@@ -8,8 +8,38 @@
 </head>
 
 <body>
-<h2>starter project</h2>
 
+<form name="mainForm" onsubmit="return false">
+
+    <fieldset id="newOrExistingField">
+        <legend>New or Old User</legend>
+        <input type="submit" value="New User" />
+        <input type="submit" value="Existing User" />
+    </fieldset>
+
+    <fieldset id="newUserField">
+        <legend>New User</legend>
+        <label for="newUserName">User Name:</label>
+        <input name="newUserName" id="newUserName" />
+        <label for="newPassword">Password:</label>
+        <input name="newPassword" id="newPassword" />
+        <label for="newCity">City:</label>
+        <input name="newCity" id="newCity" />
+        <label for="newState">State (abbr.):</label>
+        <input name="newState" id="newState" />
+        <input type="submit" value="Sign Up" />
+    </fieldset>
+
+    <fieldset id="existingUserField">
+        <legend>Existing User</legend>
+        <label for="oldUserName">User Name:</label>
+        <input name="oldUserName" id="oldUserName" />
+        <label for="oldPassword">Password:</label>
+        <input name="oldPassword" id="oldPassword" />
+        <input type="submit" value="Login" />
+    </fieldset>
+
+</form>
 <script src="main.js"></script>
 </body>
 
