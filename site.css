@@ -2,4 +2,47 @@
     margin: 50px;
     font-family: Helvetica, sans-serif;
     font-size: 100%;
+    background-color: aliceblue;
+}
+
+legend {
+    background-color: #80c3ff ;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+fieldset {
+    padding: 1.5em;
+    background-color: white;
+    border-style:none;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+fieldset:disabled {
+    background-color: lightgrey;
+}
+
+input[type=button]{
+    padding: 5px 15px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 5px;
+    border-style: solid;
+    transition-duration: 400ms;
+}
+
+input[type=button]:hover {
+    background-color: #80c3ff;
+    border-color: #80c3ff;
+}
+
+input[type=button]:disabled {
+    background-color: gray;
+    border-color: gray;
+}
+
+input[type=name] {
+    border-color: red;
+    border-style: solid;
 }
